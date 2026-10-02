@@ -1,0 +1,23 @@
+node_modules/
+.env
+.env.*
+!.env.example
+secrets/
+/storage/certificate-images/
+# Private credentials
+**/*service-account*.json
+**/*firebase-adminsdk*.json
+*.pem
+*.key
+
+# Logs and local files
+*.log
+logs/
+coverage/
+.DS_Store
+Thumbs.db
+
+# Database backups
+/backups/
+*.dump
+*.backup
